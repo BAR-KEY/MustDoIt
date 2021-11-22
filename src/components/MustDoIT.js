@@ -1,12 +1,13 @@
 import React from "react";
+import EnterYourMustDo from "./EnterYourMustDo";
+import TodoList from "./TodoList";
 import "./MustDoIt.css";
 
 const MustDoIT = (props) => {
   return (
     <div className="MustDoIt">
-      <nav className="nav">
-        <div className="nav_title">MustDoIt</div>
-      </nav>
+      <EnterYourMustDo></EnterYourMustDo>
+      <TodoList></TodoList>
     </div>
   );
 };
