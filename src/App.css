@@ -21,3 +21,6 @@
 * {
   font-family: "NanumBarunGothic";
 }
+input:focus {
+  outline: none;
+}

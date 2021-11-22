@@ -6,8 +6,8 @@ import "./MustDoIt.css";
 const MustDoIT = (props) => {
   return (
     <div className="MustDoIt">
-      <EnterYourMustDo></EnterYourMustDo>
-      <TodoList></TodoList>
+      <EnterYourMustDo onCreate={props.onCreate}></EnterYourMustDo>
+      <TodoList mustdo={props.mustdo}></TodoList>
     </div>
   );
 };
