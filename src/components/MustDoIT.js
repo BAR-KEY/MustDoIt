@@ -3,11 +3,11 @@ import EnterYourMustDo from "./EnterYourMustDo";
 import TodoList from "./TodoList";
 import "./MustDoIt.css";
 
-const MustDoIT = (props) => {
+const MustDoIT = ({ input, mustdo, onChange }) => {
   return (
     <div className="MustDoIt">
-      <EnterYourMustDo onCreate={props.onCreate}></EnterYourMustDo>
-      <TodoList mustdo={props.mustdo}></TodoList>
+      <EnterYourMustDo input={input} onChange={onChange}></EnterYourMustDo>
+      <TodoList mustdo={mustdo}></TodoList>
     </div>
   );
 };
