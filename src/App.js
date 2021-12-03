@@ -24,7 +24,7 @@ class App extends React.Component {
       <>
         <Nav></Nav>
         <MustDoIT input={input} mustdo={mustdo} onChange={handleChange} />
-        <p>hi</p>
+        <p>hi hi</p>
       </>
     );
   }
